@@ -33,10 +33,10 @@
   }
 
   
-small {
+.text-center{
   font-style: italic;
   color:rgba(6, 5, 5, 0.909);
-  text-justify: inter-cluster;
+  text-align: center;
 }
   
   .hero-text-1 {
@@ -77,7 +77,15 @@ small {
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: smaller;
       }
-      
+    
+    .services {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: smaller;
+    }
    
 
    
