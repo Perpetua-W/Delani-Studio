@@ -71,11 +71,12 @@ small {
                
     }
 
-    .bottom-left {
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-    }
+    .header {
+      text-align: center;
+      color: white;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: smaller;
+      }
       
    
 
