@@ -101,6 +101,8 @@ h3 {
 
 .row{
   background-color:;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* .col-lg {
@@ -111,4 +113,5 @@ h3 {
  /* float: left;*/
   width: 100%;
   margin-bottom: 40px;
+  
 }
