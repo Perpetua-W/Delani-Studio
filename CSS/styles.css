@@ -100,7 +100,7 @@ h3 {
 }
 
 .row{
-  background-color: brown;
+  background-color:;
 }
 
 /* .col-lg {
@@ -110,4 +110,5 @@ h3 {
 .thumbnail {
  /* float: left;*/
   width: 100%;
+  margin-bottom: 40px;
 }
