@@ -14,6 +14,27 @@ $(document).ready(function() {
       $(document).off('mouseup');
       isDoubleClick = false;
     }, 1000);
-   
+    
+    $(document).on('mouseup', function() {
+      clearTimeout(timeoutId);
+      if (!isDoubleClick) {
+        icon.show();
+        desc.hide();
+        $(document).off('mouseup');
+      }
+    });
+  });
+  
+  $('.icon').on('dblclick', function() {
+    var icon = $(this).find('img');
+    var desc = $(this).find('.description');
+    icon.hide();
+    desc.show();
+    isDoubleClick = true;
+    
+    $(document).on('mouseup', function() {
+      clearTimeout(timeoutId);
+      isDoubleClick = false;
+    });
   });
 });
