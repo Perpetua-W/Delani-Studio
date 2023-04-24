@@ -38,3 +38,10 @@ $(document).ready(function() {
     });
   });
 });
+
+$(document).ready(function() {
+  $('.thumbnail').each(function() {
+    var projectName = $(this).find('.project-name').text();
+    $(this).find('.overlay').append('<div class="project-name">' + "" + '</div>');
+  });
+});
