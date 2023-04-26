@@ -89,8 +89,9 @@ h3 {
 }
 
 .icon-container {
+  background-color: brown;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
 }
 .icon {
   text-align: center;
@@ -136,7 +137,7 @@ h3 {
 }
 
 
-.form-control#textarea{
+.form-control#message{
   height:150px;
   align-content: center;
 }
@@ -174,4 +175,15 @@ input[type="text"]:focus{
 
 .project:hover .overlay {
   opacity: 1;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.end{
+  text-align: center;
 }

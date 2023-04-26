@@ -45,3 +45,27 @@ $(document).ready(function() {
     $(this).find('.overlay').append('<div class="project-name">' + "" + '</div>');
   });
 });
+
+
+
+// Select the form and message input elements
+const form = document.querySelector('#contact-form');
+const messageInput = document.querySelector('#message');
+
+// Listen for the Enter key press event on the message input field
+messageInput.addEventListener('keydown', (event) => {
+  if (event.keyCode === 13) { // Enter key code
+    event.preventDefault();
+
+    // Get the user's input values
+    const name = form.elements.name.value;
+    const email = form.elements.email.value;
+    const message = form.elements.message.value;
+
+    // Show a popup message to the user
+    alert(`Thank you, ${name}! We have received your message and will get back to you soon.`);
+
+    // Reset the form fields
+    form.reset();
+  }
+});
