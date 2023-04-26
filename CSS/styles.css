@@ -22,18 +22,6 @@
 
 }
 
-.relative_parent{
-  position: relative;
-  background: green;
-}
-
-.my-image{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-}
 
 .container-xl {
   position: relative;
@@ -104,9 +92,15 @@ h3 {
 .icon-container {
   background-color: brown;
   display: flex;
-  justify-content:space-between;
+  justify-content:center;
+  gap: 50px
+  ;
 }
 .icon {
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
   cursor: pointer;
 }
@@ -156,11 +150,10 @@ h3 {
 
 }
 
-
 .form-control#message{
   height:150px;
   align-content: center;
-}
+ }
 
 input[type="text"]{
   background: transparent;

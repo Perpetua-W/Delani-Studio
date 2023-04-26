@@ -63,7 +63,7 @@ form.addEventListener('submit', (event) => {
     const message = form.elements.message.value;
 
     // Show a popup message to the user
-    alert(`Thank you, ${name}! We have received your message and will get back to you soon.`);
+    alert(`${name} We have received your message. Thank you for reaching out to us.`);
 
     // Reset the form field
   
