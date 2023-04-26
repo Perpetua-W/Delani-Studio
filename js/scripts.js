@@ -53,8 +53,8 @@ const form = document.querySelector('#contact-form');
 const messageInput = document.querySelector('#message');
 
 // Listen for the Enter key press event on the message input field
-messageInput.addEventListener('keydown', (event) => {
-  if (event.keyCode === 13) { // Enter key code
+form.addEventListener('submit', (event) => {
+ 
     event.preventDefault();
 
     // Get the user's input values
@@ -65,7 +65,6 @@ messageInput.addEventListener('keydown', (event) => {
     // Show a popup message to the user
     alert(`Thank you, ${name}! We have received your message and will get back to you soon.`);
 
-    // Reset the form fields
-    form.reset();
-  }
+    // Reset the form field
+  
 });
