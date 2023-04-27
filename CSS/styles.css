@@ -42,12 +42,19 @@ h3 {
   color: rgba(6, 5, 5, 0.909);
 }
 
+.about{
+  text-align: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 .text-center {
   font-style: normal;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgba(6, 5, 5, 0.909);
   text-align: center;
+  
 }
 
 .hero-text-1 {
@@ -60,10 +67,23 @@ h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: smaller;
 }
+.text{
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  text-align: center;
+}
 
 .logo {
   position: absolute;
   top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mouse{
+  position: absolute;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -92,8 +112,9 @@ h3 {
 .icon-container {
   display: flex;
   justify-content:center;
-  gap: 50px
-  ;
+  gap: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 .icon {
   justify-content: center;
@@ -120,7 +141,9 @@ h3 {
   color: white;
   top: 50%;
   left: 50%;
+  width: 800PX;
   transform: translate(-50%, -50%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .row{
@@ -147,6 +170,8 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 
