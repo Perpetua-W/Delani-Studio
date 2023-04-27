@@ -75,4 +75,6 @@ form.addEventListener("submit", (event) => {
   );
 
   // Reset the form field
+  form.reset();
+
 });

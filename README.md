@@ -1,10 +1,12 @@
 # Coding Introduction
-#### Akan Name Calculator Site built with HTML, CSS and JavaScript 22/03/2023 #### 
+#### Delani Studio Site built with HTML, CSS, JavaScript and JQuery 27/04/2023 #### 
 
 By **Perpetua Wanjiku**
 
 ## Description
-This is an application build to output the Akan name of a person, which is issued after calculating the day of the week when one was born after one inputs their birth date, month and year.
+This is a web application build  to provide software development services to it users. The site show cases
+the services that are provided, projects that have been done before and it also provides a section where a user 
+can reach out by sending a message via the input provided.
 
 ## HOW  TO USE
 Requiremets
@@ -25,13 +27,31 @@ Languages used to develop the application are
 
 *CSS - Is a style Sheet Languaue that allows to stle a HTML document
 
+*Bootstrap - Bootstrap is a free, open source front-end development framework for the creation of websites and web apps.
+
 *JavaScript - lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.99
+
+*JQuery - This is a fast, small, and feature-rich JavaScript library.
+
+## Dependencies
+This project has the following dependencies:
+
+Bootstrap 4.3.1
+jQuery v3.3.1
+
+## Setup & Installation Instructions
+To set up and install this project, please follow these steps:
+
+*Download or clone the project repository to your local machine.
+*Open the project folder and navigate to the index.html file.
+*Double-click on the index.html file to open it in your default browser.
+*You should now be able to view the website.
 
 ## Support and contact details
 If you have a problem, questions, ideas or suggestions kindly get in touch through perpetua.gatheru@gmail.com
 
 If you need to contribute, kindly fork by pressing the fork button on the top right and clone the repository with this command
-  git clone: https://github.com/Perpetua-W/Akan-name-calculator.git
+  git clone: git@github.com:Perpetua-W/Delani-Studio.git
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
