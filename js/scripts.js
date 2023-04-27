@@ -2,7 +2,8 @@ $(document).ready(function () {
   var timeoutId;
   var isDoubleClick = false;
 
-  $(".icon").on("mousedown", function () {
+  $(".icon").on("mousedown touchstart", function (e) {
+    e.preventDefault();
     var icon = $(this).find("img");
     var desc = $(this).find(".description");
     icon.hide();
@@ -11,30 +12,32 @@ $(document).ready(function () {
     timeoutId = setTimeout(function () {
       icon.show();
       desc.hide();
-      $(document).off("mouseup");
+      $(document).off("mouseup touchend");
       isDoubleClick = false;
     }, 1000);
 
-    $(document).on("mouseup", function () {
+    $(document).on("mouseup touchend", function () {
       clearTimeout(timeoutId);
       if (!isDoubleClick) {
         icon.show();
         desc.hide();
-        $(document).off("mouseup");
+        $(document).off("mouseup touchend");
       }
     });
   });
 
-  $(".icon").on("dblclick", function () {
+  $(".icon").on("dblclick touchstart", function (e) {
+    e.preventDefault();
     var icon = $(this).find("img");
     var desc = $(this).find(".description");
     icon.hide();
     desc.show();
     isDoubleClick = true;
 
-    $(document).on("mouseup", function () {
+    $(document).on("mouseup touchend", function () {
       clearTimeout(timeoutId);
       isDoubleClick = false;
+      $(document).off("mouseup touchend");
     });
   });
 });
