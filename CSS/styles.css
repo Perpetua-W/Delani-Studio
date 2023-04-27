@@ -1,6 +1,6 @@
 /* Container holding the image and the text */
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -42,7 +42,7 @@ h3 {
   color: rgba(6, 5, 5, 0.909);
 }
 
-.about{
+.about {
   text-align: center;
   justify-content: center;
   padding-left: 5%;
@@ -54,7 +54,7 @@ h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgba(6, 5, 5, 0.909);
   text-align: center;
-  
+
 }
 
 .hero-text-1 {
@@ -67,10 +67,11 @@ h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: smaller;
 }
-.text{
+
+.text {
   font-style: normal;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:white;
+  color: white;
   text-align: center;
 }
 
@@ -81,7 +82,7 @@ h3 {
   transform: translate(-50%, -50%);
 }
 
-.mouse{
+.mouse {
   position: absolute;
   top: 85%;
   left: 50%;
@@ -111,11 +112,12 @@ h3 {
 
 .icon-container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   gap: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+
 }
+
 .icon {
   justify-content: center;
   top: 0;
@@ -124,6 +126,7 @@ h3 {
   text-align: center;
   cursor: pointer;
 }
+
 .description {
   display: none;
   font-weight: bold;
@@ -146,8 +149,8 @@ h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.row{
-  background-color:none;
+.row {
+  background-color: none;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -175,16 +178,16 @@ h3 {
 
 }
 
-.form-control#message{
-  height:150px;
+.form-control#message {
+  height: 150px;
   align-content: center;
- }
+}
 
-input[type="text"]{
+input[type="text"] {
   background: transparent;
 }
 
-input[type="text"]:focus{
+input[type="text"]:focus {
   background: transparent;
 }
 
@@ -197,6 +200,7 @@ input[type="text"]:focus{
   display: block;
   max-width: 100%;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -215,25 +219,25 @@ input[type="text"]:focus{
   opacity: 1;
 }
 
-.icons{
+.icons {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
 
-.end{
+.end {
   text-align: center;
 }
 
-form{
-   width: 100%;
+form {
+  width: 100%;
 }
 
-.form-submit{
+.form-submit {
   visibility: hidden;
 }
 
-.footer-section{
+.footer-section {
   position: relative;
 }
