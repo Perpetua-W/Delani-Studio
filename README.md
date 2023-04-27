@@ -1,5 +1,5 @@
 # Coding Introduction
-#### Delani Studio Site built with HTML, CSS, JavaScript and JQuery 27/04/2023 #### 
+#### Delani Studio Site built with HTML, CSS, Bootstrap, JavaScript and JQuery 27/04/2023 #### 
 
 By **Perpetua Wanjiku**
 
@@ -15,7 +15,7 @@ Requiremets
 
 ## View Live Site
 
-To access the application you need to have a browser installed on your machine and access it through URL: https://perpetua-w.github.io/Akan-name-calculator/
+To access the application you need to have a browser installed on your machine and access it through URL: https://github.com/Perpetua-W/Delani-Studio.git
 
 ## Known Bugs
 No known bags
