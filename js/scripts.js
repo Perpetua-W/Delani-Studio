@@ -61,6 +61,12 @@ form.addEventListener("submit", (event) => {
   const email = form.elements.email.value;
   const message = form.elements.message.value;
 
+  // Validate the email address using a regular expression
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    alert('Please enter a valid email address.');
+    return;
+  }
   
 
   // Show a popup message to the user
