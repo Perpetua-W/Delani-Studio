@@ -40,6 +40,8 @@ This project has the following dependencies:
 
 *JQuery v3.3.1
 
+*https://github.com/jonnygovish/IP3
+
 ## Setup & Installation Instructions
 To set up and install this project, please follow these steps:
 
@@ -56,6 +58,7 @@ If you have a problem, questions, ideas or suggestions kindly get in touch throu
 
 If you need to contribute, kindly fork by pressing the fork button on the top right and clone the repository with this command
   git clone: git@github.com:Perpetua-W/Delani-Studio.git
+
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
