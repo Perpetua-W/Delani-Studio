@@ -36,15 +36,19 @@ Languages used to develop the application are
 ## Dependencies
 This project has the following dependencies:
 
-Bootstrap 4.3.1
-jQuery v3.3.1
+*Bootstrap 4.3.1
+
+*JQuery v3.3.1
 
 ## Setup & Installation Instructions
 To set up and install this project, please follow these steps:
 
 *Download or clone the project repository to your local machine.
+
 *Open the project folder and navigate to the index.html file.
+
 *Double-click on the index.html file to open it in your default browser.
+
 *You should now be able to view the website.
 
 ## Support and contact details
